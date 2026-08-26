@@ -23,6 +23,11 @@ Anomaly detection and yield prediction across three public manufacturing dataset
 > 主張：方法選擇應該跟隨資料結構，而不是跟隨潮流。六個「看起來成立、實際不成立」的案例，包含這個專案自己的主要宣稱。
 > `imbalanced classification` `concept drift` `virtual metrology` `GNN` `XGBoost` — [完整分析 →](https://jamesleecy.github.io/semiconductor-quality-ml/)
 
+**[precision-weighted-investment-agent](https://github.com/JamesLeeCY/precision-weighted-investment-agent)** — 多代理人精度加權投資研究系統
+Multi-agent LLM system that ports precision weighting from the predictive-processing framework in neuroscience to financial judgment. Agents emit confidence-tagged calls; an arbitration layer weights them by each agent's historical Brier score.
+> 走時序回測（FinMind，5 檔標的、2024–2026、135 個預測事件），以 Brier score、方向準確率、ECE 三項評估。誠實結論：精度加權只在來源可靠度實質分化時勝出（synthetic 17/20 seeds）——真實回測中各 agent 可靠度相近，它並未贏過簡單平均。
+> `multi-agent` `LLM` `calibration` `Brier score` `walk-forward backtesting` `quantitative finance`
+
 **[paper-rag-copilot](https://github.com/JamesLeeCY/paper-rag-copilot)** — 引用溯源的 RAG 系統
 A strictly citation-grounded RAG assistant for academic literature, with quantifiable hallucination evaluation.
 > 檢索是簡單的那一半。能量化幻覺率，才是這個系統能被信任的原因。
