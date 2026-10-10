@@ -3,13 +3,14 @@
 **Data scientist working on high-dimensional, noisy, multimodal data — industrial sensors, finance, language, and signal.**
 **專注於高維度、高雜訊、多模態資料的資料科學家 — 工業感測、金融、語言、訊號。**
 
-我相信模型跑出好結果之後才是工作的開始。十年處理人類行為與神經影像資料的訓練，
-養成一個習慣：對每一個看起來成立的結論，再多跑一次診斷。現在我把這個習慣用在
-製造、金融與語言資料上。
+我建構可以上線、也可以被量測的資料與 AI 系統：引用溯源的 RAG、多代理人研究系統、
+中文對話分析，以及正式上線的報名與金流系統。十年處理神經影像與行為資料的訓練，
+讓我習慣在高雜訊資料上做嚴謹的評估，現在用在製造、金融與語言資料上。
 
-The work starts *after* the model looks good. Ten years of behavioral and
-neuroimaging data taught me to run one more diagnostic on every result that
-already looks right — that habit now points at manufacturing, financial, and language data.
+I build data and AI systems that ship and can be measured: citation-grounded RAG,
+multi-agent research systems, Chinese conversation analytics, and a live registration
+and payment platform. Ten years of neuroimaging and behavioral data made rigorous
+evaluation on noisy data a habit — now applied to manufacturing, financial, and language data.
 
 📍 Taipei, Taiwan ｜ 正在尋找資料科學、機器學習、AI 工程職缺
 📍 Open to data science, ML, and AI engineering roles in Taiwan
@@ -40,12 +41,12 @@ Registration and payment system for PACLIC 40 (Dec 2026, NTU), live since 2026-1
 
 **[semiconductor-quality-ml](https://github.com/JamesLeeCY/semiconductor-quality-ml)** — 半導體品質與良率預測
 Anomaly detection and yield prediction across three public manufacturing datasets — a static snapshot (SECOM), in-process time series (PHM 2016 CMP), and a production routing graph (Bosch).
-> 主張：方法選擇應該跟隨資料結構，而不是跟隨潮流。六個「看起來成立、實際不成立」的案例，包含這個專案自己的主要宣稱。
+> 主張：方法選擇應該跟隨資料結構，而不是跟隨潮流。PHM CMP 官方測試集 MSE 6.24；以診斷把關模型選擇，例如 CMP 虛擬量測 R² 0.993 在主要群集內為 0.897、驗證集最佳的 1D-CNN 在測試集最差——避免把假改善帶進部署。
 > `imbalanced classification` `concept drift` `virtual metrology` `GNN` `XGBoost` — [完整分析 →](https://jamesleecy.github.io/semiconductor-quality-ml/)
 
 **[precision-weighted-investment-agent](https://github.com/JamesLeeCY/precision-weighted-investment-agent)** — 多代理人精度加權投資研究系統
 Multi-agent system (fundamentals, news, macro/flows, supply-chain knowledge graph, technicals) that ports precision weighting from the predictive-processing framework to Taiwan-equity judgments, tested on a survivorship-bias-free universe (271 stocks, 2019–2026, 8,475 walk-forward predictions).
-> 誠實結論：方向準確率低於「永遠猜上漲」，所有策略的 Sharpe 都低於 0050；精度加權在真實資料上從未奏效——估計「誰可靠」的誤差和訊號一樣大。唯一站得住的是財報 Agent 的產業內選股（IC +0.029，t 2.16），但樣本外大幅縮水、Deflated Sharpe 不顯著。規則已凍結並事先登錄評估方式，每月排程自動做前瞻驗證。
+> 關鍵發現：精度加權的前提是能可靠估計各來源的準確度，實測估計誤差與訊號同量級，因此系統改以財報 Agent 為主。財報 Agent 的產業內選股有效（IC +0.029，t 2.16，各子期間與取樣起點皆為正）；選股策略的 Sharpe 尚未超越 0050，樣本外效果較小。規則已凍結並事先登錄評估方式，每月排程自動做前瞻驗證。
 > `multi-agent` `LLM` `walk-forward backtesting` `information coefficient` `survivorship bias` `deflated Sharpe` `forward validation`
 
 All projects were built with Claude Code as a development assistant. ｜ 所有專案皆以 Claude Code 協助開發。
