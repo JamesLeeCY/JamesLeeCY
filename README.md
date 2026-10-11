@@ -66,12 +66,14 @@ All projects were built with Claude Code as a development assistant. ｜ 所有�
 
 ### 背景 ｜ Background
 
-- **業界** — 數位健康公司 R&D 專案經理：整合性失智症延緩方案，橫跨認知訓練、睡眠偵測、營養產品三個外部合作團隊，含雲端平台與 API 規劃。
-  *R&D project manager at a digital health company — a three-partner dementia-delay program with cloud platform and API design.*
+- **量化研究** — WorldQuant BRAIN Research Consultant（2026.08 起，有薪顧問合約，Gold 等級）：交付 38 個通過品質與穩健性檢查的全球股票訊號（樣本內 Sharpe 中位數 1.63）。
+  *Research Consultant at WorldQuant BRAIN (since Aug 2026, Gold level): 38 global equity signals passing quality and robustness checks (median in-sample Sharpe 1.63).*
+- **業界** — 優照護（UCarer）R&D 專案經理（2021.03–08）：整合性失智症延緩方案，協調認知訓練、睡眠偵測、營養產品三個外部合作團隊，參與雲端平台與 API 規劃。
+  *R&D Project Manager at UCarer (Mar–Aug 2021): a three-partner dementia-delay program, including cloud platform and API planning.*
 - **研究** — 台大 & 中研院跨領域神經科學博士候選人，預計 2027 年 3 月畢業。兩篇第一作者論文（*Journal of Psychiatry and Neuroscience* 2023、*Biological Psychology* 2021）。
   *PhD candidate, NTU & Academia Sinica, expected Mar 2027. Two first-author publications.*
-- **國際** — 2024–2025 於 Brandeis University 擔任訪問學者（教育部公費），建置台美跨站點神經影像資料平台。
-  *Visiting scholar at Brandeis University on a government-funded program; built a Taiwan–US cross-site data platform.*
+- **國際** — 2024–2025 以教育部公費在美國波士頓擔任 Brandeis University 訪問學者近一年，協調台美跨站點神經影像資料平台，日常以英文與美國團隊協作。同期擔任波士頓台灣生技協會（BTBA）年度研討會募款共同負責人（募得 US$37K），並在紐約台美生技協會（TAAB）2024 年會擔任籌備委員、以英文主持 keynote（講者為 Graphen 執行長、前 IBM Chief Scientist 林清詠博士）。
+  *Visiting scholar at Brandeis University near Boston (2024–2025, Taiwan MOE-funded), coordinating a Taiwan–U.S. cross-site neuroimaging data platform and working daily in English. Fundraising co-lead for the BTBA Symposium (US$37K raised) and organizing committee member and keynote moderator at the 2024 TAAB Annual Symposium in New York (keynote by Dr. Ching-Yung Lin, CEO of Graphen and former IBM Chief Scientist).*
 
 ---
 
