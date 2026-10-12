@@ -31,7 +31,7 @@ Per-TR visual, motion, semantic, and object-level features from naturalistic vid
 
 **[line-chat-triage](https://github.com/JamesLeeCY/line-chat-triage)** — 中文對話風險分流
 Health triage over LINE work groups — six business-time-aware indicators, a non-compensatory escalation tripwire, and automated PDF reports; LINE webhook and Telegram ingestion.
-> 把非結構化的中文對話紀錄，變成可排序、可行動的風險訊號。合成評估以程式埋入標準答案（初步 10 組，規則系統 + phi4 組合後風險等級 9/10 正確）；股票社群模式以 entropy 時間序列預測話題轉移（AUC 0.62 → 0.71），LLM 多空標註與人工的 Cohen's κ 最高 0.42 / 0.55。
+> 把非結構化的中文對話紀錄，變成可排序、可行動的風險訊號。以程式埋入標準答案的 100 組合成評估：改進後的規則系統在驗證組風險等級正確率 94%、誘餌零誤報；股票社群模式以 entropy 時間序列預測話題轉移（AUC 0.62 → 0.71），LLM 多空標註與人工的 Cohen's κ 最高 0.42 / 0.55。
 > `Chinese NLP` `semantic entropy` `LLM labeling` `synthetic benchmark` `FastAPI`
 
 **PACLIC 40 registration** — 國際會議線上報名與金流系統（[正式站](https://registration.linguistics.ntu.edu.tw)，repo 私有）
