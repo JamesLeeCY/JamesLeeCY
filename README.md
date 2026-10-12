@@ -46,8 +46,8 @@ Anomaly detection and yield prediction across three public manufacturing dataset
 
 **[precision-weighted-investment-agent](https://github.com/JamesLeeCY/precision-weighted-investment-agent)** — 多代理人精度加權投資研究系統
 Multi-agent system (fundamentals, news, macro/flows, supply-chain knowledge graph, technicals) that ports precision weighting from the predictive-processing framework to Taiwan-equity judgments, tested on a survivorship-bias-free universe (271 stocks, 2019–2026, 8,475 walk-forward predictions).
-> 關鍵發現：精度加權的前提是能可靠估計各來源的準確度，實測估計誤差與訊號同量級，因此系統改以財報 Agent 為主。財報 Agent 的產業內選股有效（IC +0.029，t 2.16，各子期間與取樣起點皆為正）；選股策略的 Sharpe 尚未超越 0050，樣本外效果較小。規則已凍結並事先登錄評估方式，每月排程自動做前瞻驗證。
-> `multi-agent` `LLM` `walk-forward backtesting` `information coefficient` `survivorship bias` `deflated Sharpe` `forward validation`
+> 關鍵發現：精度加權的前提是能可靠估計各來源的準確度，實測估計誤差與訊號同量級，因此系統改以財報 Agent 為主。月營收驚奇（SUE）是第一個在 2019–2022 與 2023–2026 兩段都顯著的訊號（產業內 IC +0.032 / +0.059）。財報 Agent 的產業內選股有效（IC +0.029，t 2.16，各子期間與取樣起點皆為正）；選股策略的 Sharpe 尚未超越 0050，樣本外效果較小。規則已凍結並事先登錄評估方式，每月排程自動做前瞻驗證。
+> `multi-agent` `LLM` `walk-forward backtesting` `information coefficient` `survivorship bias` `deflated Sharpe` `forward validation` — [研究儀表板 →](https://jamesleecy.github.io/precision-weighted-investment-agent/site/research-dashboard.html)
 
 All projects were built with Claude Code as a development assistant. ｜ 所有專案皆以 Claude Code 協助開發。
 
